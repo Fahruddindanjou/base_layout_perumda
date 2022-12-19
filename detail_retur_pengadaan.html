@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Detail Retur Pengadaan</title>
+    <!-- CSS files -->
+    <link href="./assets/dist/css/tabler.css" rel="stylesheet"/>
+    <link href="./assets/dist/css/tabler-vendors.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/dist/css/custome.css">
+    <link rel="stylesheet" href="./assets/plugin/leaflet.css">
+  </head>
+  <body >
+    <div class="page">
+        <!-- Sidebar -->
+        <div class="sidebar" id="getSidebar">
+            <div class="side-top p-3">
+                <div class="close d-flex justify-content-end" id="getClose">
+                    <img src="./assets/icon/close.png" alt="">
+                </div>
+                <!-- Logo -->
+                <a href="" class="logo-box">
+                    <div class="logo-brand d-flex justify-content-center">
+                        <img src="./assets/logo/logo.png" alt="" class="">
+                    </div>
+                </a>
+                <!-- End Logo -->
+            </div>
+
+            <!-- Menu -->
+            <div class="sidebar-group">
+                <ul class="sidebar-list ">
+                    <li class="active">
+                        <div class="title">
+                            <a href="dashboard.html" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Dashboard_white.png" alt="" class="icon">
+                                <span class="name">Dashboard</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Mitra_white.png" alt="" class="icon">
+                                <span class="name">Karyawan</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="mitra_supplier.html" class="link mb-2 mt-2">
+                                <img src="./assets/icon/partner.png" alt="" class="icon">
+                                <span class="name">Mitra</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Product_white.png" alt="" class="icon">
+                                <span class="name">Produk</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="retur_pengadaan.html" class="link mb-2 mt-2">
+                                <img src="./assets/icon/warehouse_white.png" alt="" class="icon">
+                                <span class="name">Pergudangan</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/penjualan_white.png" alt="" class="icon">
+                                <span class="name">Penjualan</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Pengiriman_white.png" alt="" class="icon">
+                                <span class="name">Pengiriman</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/operasional.png" alt="" class="icon">
+                                <span class="name">Operasional</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Financial_white.png" alt="" class="icon">
+                                <span class="name">Financial</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/RKAB_white.png" alt="" class="icon">
+                                <span class="name">RKAPB</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/KPI_white.png" alt="" class="icon">
+                                <span class="name">KPI</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Quality_white.png" alt="" class="icon">
+                                <span class="name">Jaminan Mutu</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <a href="" class="link mb-2 mt-2">
+                                <img src="./assets/icon/Kegiatan_white.png" alt="" class="icon">
+                                <span class="name">Kegiatan</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Menu -->
+        </div>
+        <!-- End Sidebar -->
+        <header class="navbar navbar-expand-md navbar-light d-none d-lg-flex d-print-none sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-nav flex-row order-md-last">
+                    <div class="nav-item dropdown">
+                    <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
+                        <span class="avatar avatar-sm" style="background-image: url(./assets/static/avatars/002f.jpg)"></span>
+                        <div class="d-none d-xl-block ps-2">
+                        <div>Andre</div>
+                        <div class="mt-1 small text-muted">Administrator</div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                        <a href="#" class="dropdown-item">Kembali</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="navbar-nav navbar-collapse" id="navbar-menu">
+                    <!-- Notification -->
+                    <div class="nav-item col-6 col-sm-4 col-md-2 col-xl-auto me-3">
+                        <button class="btn btn-rss w-100 btn-icon rounded-circle toggle-sidebar">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <line x1="4" y1="6" x2="20" y2="6"></line>
+                                <line x1="4" y1="12" x2="20" y2="12"></line>
+                                <line x1="4" y1="18" x2="20" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="nav-item col-6 col-sm-4 col-md-2 col-xl-auto">
+                        <img src="./assets/logo/logo.png" alt="" height="40">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- start content -->
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <div class="page-body">
+                    <h2>PERGUDANGAN BIDANG PERDAGANGAN</h2>
+                    <div class="row row-deck row-cards mt-1">
+                        <!-- start title nav -->
+                        <div class="col-12 col-md-12 mb-2">
+                            <div class="card card-sm shadow-sm">
+                                 <div class="card-body">
+                                    <div class="col-12 fs-2 col-md-4">
+                                        <a href="retur_pengadaan.html" class="text-decoration-underline">Retur</a>
+                                        <div class="d-inline-block">
+                                        <span class="fs-2 fw-normal"> <span class="fs-2"> » </span>Kopi Rojoku Pouds</span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end title nav -->
+
+                        <!-- start info Opname -->
+                        <div class="col-12 col-md-6 mb-2">
+                            <div class="card card-sm shadow-sm">
+                                 <div class="card-body">
+                                     <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="col-6 col-md-3 mb-2">
+                                                    <img src="./assets/static/avatars/002f.jpg" alt="" class="img-fluid rounded-circle">
+                                                </div>
+                                                <div class="col-6 col-md-9 mb-2 mt-3">
+                                                    <h1>Kopi Rojoku Pouds</h1>
+                                                    <div class="mt-3">
+                                                        <h5 class="mb-0 fw-light fs-3">Kopi</h5>
+                                                        <h3 class="pt-0">Kopi Sachet</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="col-6 col-md-12">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="col-sm-12 col-md-6 mb-2">
+                                                    <h3 class="fs-2 fw-normal">Kode Produk</h3>
+                                                    <h3 class="fs-2 fw-normal">Kategori</h3>
+                                                    <h3 class="fs-2 fw-normal">Sub Kategori</h3>
+                                                    <h3 class="fs-2 fw-normal">Total Stok</h3>
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 mb-2" style="text-align: right;">
+                                                    <h3 class="fs-2 fw-normal">P. 123456789</h3>
+                                                    <h3 class="fs-2 fw-normal">Kopi</h3>
+                                                    <h3 class="fs-2 fw-normal">Kopi Sachet</h3>
+                                                    <h3 class="fs-2 fw-normal">500 DUS</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <!-- end info Opname -->
+
+                        <!-- start hasil opname -->
+                        <div class="col-12 col-md-6 mb-2">
+                            <div class="card card-sm shadow-sm">
+                                <div class="card-body">
+                                    <h2>Busines Data</h2>
+                                    <hr class="mt-0 mb-3">
+                                    <div class="col-6 col-md-12">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="col-sm-12 col-md-6 mb-2">
+                                                <h3 class="fs-2 fw-normal mb-3">Kode Retur</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">Kode Transaksi</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">Supplier</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">Jumlah</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">Tanggal Retur</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">Status</h3>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 mb-2" style="text-align: right;">
+                                                <h3 class="fs-2 fw-normal mb-3">TR. 123456789</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">TR. 123456789</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">PT. Abdi Negara</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">50 Produk</h3>
+                                                <h3 class="fs-2 fw-normal mb-3">22 Mei 2022</h3>
+                                                <h3 class="fs-2 fw-normal text-success mb-3">Diganti Baru</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end hasil opname -->
+
+                        <!-- start catatan -->
+                        <div class="col-12 col-md-12 mb-3">
+                            <div class="card card-sm shadow-sm">
+                                <div class="card-body">
+                                    <div class="row justify-content-between">
+                                        <div class="col-md-8 justify-content-center">
+                                            <h4 class="fs-2">Deskripsi Retur</h4>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis sapiente dolores voluptatibus sit, natus, similique non cum iste voluptate tempora suscipit perspiciatis enim consequatur, ex molestias? A nemo cumque suscipit voluptas aliquid exercitationem earum qui ab. Animi natus similique perferendis, explicabo repellat nobis blanditiis, consectetur reiciendis distinctio, dignissimos voluptatem?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit praesentium et possimus suscipit aspernatur, quam temporibus repellat sunt voluptates veritatis, sapiente numquam magni eos eveniet ad obcaecati dolorem id.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end catatan -->
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+
+            <!-- start footer -->
+            <footer class="footer footer-transparent bg-success d-print-none">
+                <div class="container-xl">
+                    <div class="row text-center align-items-center justify-content-center">
+                        <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+                            <ul class="list-inline list-inline-dots mb-0">
+                                <li class="list-inline-item">
+                                    <span class="fs-3 fw-bold">Smart Perumda Aneka Usaha Jepara © 2022</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+
+        </div>
+    </div>
+    <!-- Libs JS -->
+    <script src="./assets/dist/libs/apexcharts/dist/apexcharts.min.js" defer></script>
+    <!-- Tabler Core -->
+    <script src="./assets/dist/js/custome.js"></script>
+    <script src="./assets/dist/js/tabler.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+
+
+  </body>
+</html>

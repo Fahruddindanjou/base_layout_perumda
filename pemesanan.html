@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Mitra Supplier</title>
+    <title>Pemesanan Pergudangan</title>
     <!-- CSS files -->
     <link href="./assets/dist/css/tabler.css" rel="stylesheet"/>
     <link href="./assets/dist/css/tabler-vendors.min.css" rel="stylesheet"/>
@@ -181,7 +181,7 @@
         <div class="page-wrapper">
             <div class="container-fluid">
                 <div class="page-body">
-                    <h2>MITRA BIDANG PERDAGANGAN</h2>
+                    <h2>PERGUDANGAN BIDANG PERDAGANGAN</h2>
                     <div class="row row-deck row-cards mt-1">
 
                         <!-- start link nav -->
@@ -190,18 +190,31 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-4 col-sm-2">
-                                            <a href="mitra_supplier.html" class="link1 link active-nav">
+                                            <a href="mitra_supplier.html" class="link1 link active-nav dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                     <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
                                                     <path d="M4 6v6a8 3 0 0 0 16 0v-6"></path>
                                                     <path d="M4 12v6a8 3 0 0 0 16 0v-6"></path>
                                                 </svg>
-                                                <span class="fs-3">Mitra Supplier</span>
+                                                <span class="fs-3">
+                                                    Pengadaan
+                                                </span>
                                             </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item dropdown" href="pemesanan.html">
+                                                    Pemesanan
+                                                </a>
+                                                <a class="dropdown-item" href="pembayaran.html">
+                                                    Pembayaran
+                                                </a>
+                                                <a class="dropdown-item" href="retur_pengadaan.html">
+                                                    Retur
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="col-4 col-sm-2">
-                                            <a href="#" class="link1 link">
+                                            <a href="#" class="link1 link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" role="button" aria-expanded="false">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                     <circle cx="9" cy="7" r="4"></circle>
@@ -209,8 +222,19 @@
                                                     <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                                                     <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
                                                 </svg>
-                                                <span class="fs-3">Mitra Reseller</span>
+                                                <span class="fs-3">Penyimpanan</span>
                                             </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item dropdown" href="opname.html">
+                                                    Opname
+                                                </a>
+                                                <a class="dropdown-item" href="spoil_pergudangan.html">
+                                                    Spoil
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    Penyesuaian
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="col-4 col-sm-2">
                                             <a href="mitra_toko.html" class="link1 link">
@@ -222,7 +246,7 @@
                                                     <line x1="19" y1="21" x2="19" y2="10.85"></line>
                                                     <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4"></path>
                                                 </svg>
-                                                <span class="fs-3">Mitra Toko</span>
+                                                <span class="fs-3">Pengeluaran</span>
                                             </a>
                                         </div>
                                     </div>
@@ -237,10 +261,10 @@
                                  <div class="card-body">
                                     <div class="col-12 fs-2 col-md-4">
                                         <div class="">
-                                            <h4 class="fs-2 fw-normal mb-0 mt-0">Mitra Supplier</h4>
+                                            <h4 class="fs-2 fw-normal mb-0 mt-0">Pemesanan</h4>
                                         </div>
                                         <div class="fs-6 pt-0">
-                                            <a href="#" class="text-decoration-underline">Data Mitra Supplier</a>
+                                            <a href="#" class="text-decoration-underline">Data Pemesanan</a>
                                         </div>
                                     </div>
                                 </div>
@@ -254,12 +278,12 @@
                                 <div class="card-body">
                                     <div class="row justify-content-between">
                                         <div class="col-md-8 justify-content-center">
-                                            <h4 class="fs-2">Data Karyawan Bidang Perdagangan</h4>
+                                            <h4 class="fs-2">Data Pemesanan Pergudangan</h4>
                                         </div>
                                         <div class="col-md-4 mb-2">
                                             <div class="row justify-content-end">
                                                 <div class="col-sm-8 mb-2">
-                                                    <input type="text" class="form-control" placeholder="Cari Karyawan..." aria-label="cari_karyawan">
+                                                    <input type="text" class="form-control" placeholder="Cari Produk...">
                                                 </div>
                                                 <div class="col">
                                                     <a href="#" class="btn btn-danger w-100 btn-icon" data-bs-toggle="modal" data-bs-target="#modalUpload">
@@ -303,17 +327,17 @@
                                                     </th>
                                                     <th style="width: 18%;">
                                                         <div class="form-control">
-                                                            ID Mitra
+                                                            ID Pemesanan
                                                         </div>
                                                     </th>
                                                     <th style="width: 18%;">
                                                         <div class="form-control">
-                                                            Nama Mitra
+                                                            Nama Produk
                                                         </div>
                                                     </th>
                                                     <th style="width: 18%;">
                                                         <div class="form-control">
-                                                            Status Mitra
+                                                            Tanggal
                                                         </div>
                                                     </th>
                                                     <th style="width: 10%;">
@@ -327,44 +351,44 @@
                                                 <tr class="fs-2">
                                                     <td class="fs- text-center">1</td>
                                                     <td>KPD. 123456789</td>
-                                                    <td>Rizal Najib Kurnia</td>
-                                                    <td>Honorer</td>
+                                                    <td>Kopi Rojoku Pouds</td>
+                                                    <td>12, Maret 2022</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center">
-                                                            <a href="detail_mitra_supplier.html" class="btn btn-dribbble">View</a>
+                                                            <a href="detail_pemesanan.html" class="btn btn-dribbble">View</a>
                                                         </div>
                                                     </td>
                                                 </tr>
                                                 <tr class="fs-2">
                                                     <td class="fs-2 text-center">2</td>
                                                     <td>KPD. 123456789</td>
-                                                    <td>Bagus Indra Kusuma</td>
-                                                    <td>Tetap</td>
+                                                    <td>Kopi Rojoku Pouds</td>
+                                                    <td>12, Maret 2022</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center">
-                                                            <a href="detail_mitra_supplier.html" class="btn btn-dribbble">View</a>
+                                                            <a href="detail_pemesanan.html" class="btn btn-dribbble">View</a>
                                                         </div>
                                                     </td>
                                                 </tr>
                                                 <tr class="fs-2">
                                                     <td class="fs-2 text-center">3</td>
                                                     <td>KPD. 123456789</td>
-                                                    <td>Mega Arimbi</td>
-                                                    <td>Kontrak</td>
+                                                    <td>Kopi Rojoku Pouds</td>
+                                                    <td>12, Maret 2022</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center">
-                                                            <a href="detail_mitra_supplier.html" class="btn btn-dribbble">View</a>
+                                                            <a href="detail_pemesanan.html" class="btn btn-dribbble">View</a>
                                                         </div>
                                                     </td>
                                                 </tr>
                                                 <tr class="fs-2">
                                                     <td class="fs-2 text-center">4</td>
                                                     <td>KPD. 123456789</td>
-                                                    <td>Setyawan Hendra</td>
-                                                    <td>Honorer</td>
+                                                    <td>Kopi Rojoku Pouds</td>
+                                                    <td>12, Maret 2022</td>
                                                     <td>
                                                         <div class="d-flex justify-content-center">
-                                                            <a href="detail_mitra_toko.html" class="btn btn-dribbble">View</a>
+                                                            <a href="#" class="btn btn-dribbble">View</a>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -416,7 +440,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="input-group mb-3">
-                                <label class="input-group-text" for="inputGroupSelect02">Kategori Mitra</label>
+                                <label class="input-group-text" for="inputGroupSelect02">Kategori Pemesanan</label>
                                 <select class="form-select" id="inputGroupSelect02">
                                   <option selected>Choose...</option>
                                   <option value="1">One</option>
@@ -438,14 +462,14 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Upload File</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Upload Data Pemesanan</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <input type="file" class="form-control">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Upload</button>
+                            <button type="button" class="btn btn-success">Upload</button>
                         </div>
                     </div>
                 </div>

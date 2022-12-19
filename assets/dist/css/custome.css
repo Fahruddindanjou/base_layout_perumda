@@ -212,5 +212,23 @@ a.link1:hover{
     --tblr-border-color-light-rgb: 242, 243, 244;
   }
 
-  
 /* end table */
+
+/* active nav */
+
+.active-nav{
+    color: #2fb344 !important;
+}
+
+/* end active nav */
+
+/* dropdown item nav*/
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2fb344;
+
+}
+
+/* end dropdown item nav */
